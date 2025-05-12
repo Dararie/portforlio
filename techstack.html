@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jade Pasco | Tech Stack</title>
+    <link rel="icon" href="https://iconify.design/icon-sets/mdi/account-circle.html" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Jade Pasco</a>
+            <!-- Horizontal navbar for tablet/desktop -->
+            <div class="navbar-nav-desktop d-none d-md-flex">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link active" href="techstack.html">Tech Stack</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+            </div>
+            <!-- Side menu toggle for mobile -->
+            <button class="menu-toggler d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#sideMenu" aria-controls="sideMenu" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Side navigation for mobile -->
+    <div class="offcanvas offcanvas-end d-md-none" tabindex="-1" id="sideMenu">
+        <div class="offcanvas-body">
+            <div class="nav-menu">
+                <a href="index.html" class="nav-item">
+                    <div class="nav-icon">
+                        <i class="bi bi-house-door"></i>
+                    </div>
+                    <span class="nav-label">Home</span>
+                </a>
+                <a href="about.html" class="nav-item">
+                    <div class="nav-icon">
+                        <i class="bi bi-person"></i>
+                    </div>
+                    <span class="nav-label">About</span>
+                </a>
+                <a href="techstack.html" class="nav-item active">
+                    <div class="nav-icon">
+                        <i class="bi bi-code-square"></i>
+                    </div>
+                    <span class="nav-label">Tech Stack</span>
+                </a>
+                <a href="contact.html" class="nav-item">
+                    <div class="nav-icon">
+                        <i class="bi bi-envelope"></i>
+                    </div>
+                    <span class="nav-label">Contact</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <section class="sub-hero">
+        <div class="container">
+            <h1 class="display-4 fw-bold" data-aos="fade-up">Technical Skills</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="100">Technologies and tools I work with</p>
+        </div>
+    </section>
+
+    <section class="tech-stack py-5">
+        <div class="container">
+            <div class="row g-4">                
+                <div class="col-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="tech-logo">
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p>Dynamic web development</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="tech-logo">
+                        </div>
+                        <h3>HTML5</h3>
+                        <p>Semantic markup</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="tech-logo">
+                        </div>
+                        <h3>CSS3</h3>
+                        <p>Modern styling</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" class="tech-logo">
+                        </div>
+                        <h3>Bootstrap</h3>
+                        <p>Responsive design</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-delay="500">
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="tech-logo">
+                        </div>
+                        <h3>Git</h3>
+                        <p>Version control</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-delay="600">
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="tech-logo">
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>Collaboration platform</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-delay="700">
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <img src="https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png" alt="Android Studio" class="tech-logo">
+                        </div>
+                        <h3>Android Studio </h3>
+                        <p>Mobile development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
